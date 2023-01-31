@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imágenes/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Personal website</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-toggler">
+                    <a class="navbar-brand" href="#">
+                        <img src="./imágenes/logo.png" alt="logo" width="50px">
+                    </a>
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#presentacion">Presentación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#curriculum">Currículum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <!--Presentación-->
+        <section id="presentacion" class="presentacion align-items-stretch"> <!--d-flex flex-column justify-content-center align-items-center-->
+            <div class="imagen">
+                <img class="img" src="./imágenes/yo.png" alt="fotoYo">
+            </div>
+            <h2>Soy Victoria Calventos Rodríguez</h2>
+            <p>Estudiante de CFGS de Desarrollo de aplicaciones web en CC Es Liceu (Islas Baleares)</p>
+        </section>
+
+        <!--Currículum-->
+        <section id="curriculum" class="curriculum">
+            <h1>Currículum</h1>
+            <h2 class="texto-h2">Experiencia laboral</h2>
+            <p>Azafata de evento: 12/11/2021 - 13/11/2021</p>
+            <p>Extra de rodaje: 31/05/2022 - 31/05/2022</p>
+            <p>Camarera: 25/06/2022 - 04/09/2022</p>
+
+            <h2 class="texto-h2">Formación académica</h2>
+            <p>Título de bachillerato, IES Son Rullán (Islas Baleares) - Junio 2020</p>
+            <p>Grado superior de Desarrollo de Aplicaciones Web, CC Es Liceu (Islas Baleares) - Fecha prevista, Junio 2023</p>
+
+            <h2 class="texto-h2">Idiomas</h2>
+            <p>Castellano: hablado alto, escrito alto</p>
+            <p>Catalán: hablado alto, escrito alto</p>
+            <p>Inglés: hablado medio, escrito medio</p>
+        </section>
+
+        <!--Proyectos-->
+        <section id="proyectos" class="proyectos">
+            <h1>Mis proyectos</h1>
+            <div class="proyectos-contenedor container text-center">
+                <div class="row">
+                    <!--Proyecto1-->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="./imágenes/proyecto1.png" alt="proyecto1">
+                            <div class="overlay">
+                                <p>Proyecto 1</p>
+                                <div class="icono">
+                                    <a href="https://github.com/victoria-cr/Practica1-Numbers_2021" target="_blank" rel="noopener noreferrer">
+                                        Proyecto 1
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Proyecto2-->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="./imágenes/proyecto2.png" alt="proyecto2">
+                            <div class="overlay">
+                                <p>Proyecto 2</p>
+                                <div class="icono">
+                                    <a href="https://github.com/victoria-cr/Practica2-Polynomial_2022" target="_blank" rel="noopener noreferrer">
+                                        Proyecto 2
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Proyecto3-->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="./imágenes/proyecto3.png" alt="proyecto3">
+                            <div class="overlay">
+                                <p>Proyecto 3</p>
+                                <div class="icono">
+                                    <a href="https://github.com/victoria-cr/Practica3-PatronsDeText_2022" target="_blank" rel="noopener noreferrer">
+                                        Proyecto 3
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Proyecto4-->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="./imágenes/proyecto4.png" alt="proyecto4">
+                            <div class="overlay">
+                                <p>Proyecto 4</p>
+                                <div class="icono">
+                                    <a href="https://github.com/victoria-cr/Practica4-Barcodes_2022" target="_blank" rel="noopener noreferrer">
+                                        Proyecto 4
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Proyecto5-->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="./imágenes/proyecto5.png" alt="proyecto5">
+                            <div class="overlay">
+                                <p>Proyecto 5</p>
+                                <div class="icono">
+                                    <a href="https://github.com/victoria-cr/Practica1-FiguresGeometriques_2022" target="_blank" rel="noopener noreferrer">
+                                        Proyecto 5
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Proyecto6-->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="./imágenes/proyecto6.png" alt="proyecto6">
+                            <div class="overlay">
+                                <p>Proyecto 6</p>
+                                <div class="icono">
+                                    <a href="https://github.com/victoria-cr/Practica2-MazeGame_2022" target="_blank" rel="noopener noreferrer">
+                                        Proyecto 6
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contacto-->
+        <section id="contacto" class="contacto">
+            <h1>Contacto</h1>
+             <div class="container text-center">
+                <div class="row">
+                    <div class="col-12 col-md-4 titulo">
+                        ¡Contacta conmigo!
+                    </div>
+                    <div class="col-12 col-md-4 texto">
+                        Escríbeme para hacer realidad tu proyecto de una página web.
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:victoriacalvrodri@gmail.com">
+                            <button type="button">
+                                Correo
+                                <i class="bi bi-envelope-fill"></i>
+                            </button>
+                        </a>
+                        <br><br>
+                        <a href="callto:665801215">
+                            <button type="button">
+                                Teléfono
+                                <i class="bi bi-telephone-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+             </div>
+        </section>
+    </main>
+    
+    <footer class="d-flex flex-column align-items-center justify-content-center">
+        <div class="iconos-enlaces d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://twitter.com/vickycalventosr" target="_blank" rel="noopener noreferrer">
+                Twitter
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/victoriacalventos/" target="_blank" rel="noopener noreferrer">
+                Instagram
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://github.com/victoria-cr?tab=repositories" target="_blank" rel="noopener noreferrer">
+                Github
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/victoria-calventos-rodr%C3%ADguez-7b219025a/" target="_blank" rel="noopener noreferrer">
+                Linkedin
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:victoriacalvrodri@gmail.com" target="_blank" rel="noopener noreferrer">
+                Mail
+                <i class="bi bi-envelope-fill"></i>
+            </a>
+            <a href="callto:665801215" target="_blank" rel="noopener noreferrer">
+                Telephone
+                <i class="bi bi-telephone-fill"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

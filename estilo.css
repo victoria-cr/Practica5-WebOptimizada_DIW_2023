@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos Generales*/
+body {
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    color: black;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Barra de navegación*/
+.navbar {
+    padding: 15px;
+    background-color: #fbe3e3;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Presentación*/
+.presentacion {
+    background-color: #fbe3e3;
+    text-align: center;
+    padding: 20px;
+}
+
+.imgen {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 120px;
+    height: 180px;
+    margin: 5px;
+}
+
+/*Currículum*/
+.curriculum {
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.texto-h2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/*Proyectos*/
+.proyectos {
+    background-color: #fbe3e3;
+}
+
+.proyectos img {
+    height: 280px;
+    width: 320px;
+    padding: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+    padding-top: 25px;
+    margin-bottom: 40px;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto {
+    position: relative;
+}
+
+.proyecto:hover img {
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .icono {
+    display: flex;
+}
+
+.overlay a {
+    font-size: 0px;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+/*Contacto*/
+.contacto .container {
+   padding-top: 20px;
+   padding-bottom: 80px;
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto button {
+    font-size: 10pt;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.contacto button:hover {
+    background-color: #fbe3e3;
+}
+
+/*Footer*/
+footer {
+    background-color: #f99aaa;
+    padding: 25px;
+}
+
+.iconos-enlaces a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    font-size: 0px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-enlaces a:hover {
+    background-color: black;
+}
+
+.iconos-enlaces i {
+    color: black;
+    font-size: 25px;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-enlaces a:hover i {
+    color: #f99aaa;
+}
+
+/*Media*/
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
